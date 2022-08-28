@@ -2,3 +2,5 @@ credentials.json
 token.json
 siesta
 __pycache__
+node_modules
+.serverless

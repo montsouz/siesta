@@ -1,0 +1,24 @@
+{
+  "name": "siesta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montsouz/siesta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montsouz/siesta/issues"
+  },
+  "homepage": "https://github.com/montsouz/siesta#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^3.21.0",
+    "serverless-python-requirements": "^5.4.0"
+  }
+}

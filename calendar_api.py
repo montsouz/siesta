@@ -1,7 +1,6 @@
 from __future__ import print_function
 
 import datetime
-import json
 import os.path
 
 from google.auth.transport.requests import Request
@@ -15,10 +14,7 @@ from googleapiclient.errors import HttpError
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
 
-def main():
-    """Shows basic usage of the Google Calendar API.
-    Prints the start and name of the next 10 events on the user's calendar.
-    """
+def create_calendar_event():
     creds = None
     # The file token.json stores the user's access and refresh tokens, and is
     # created automatically when the authorization flow completes for the first
@@ -62,7 +58,3 @@ def main():
 
     except HttpError as error:
         print('An error occurred: %s' % error)
-
-
-if __name__ == '__main__':
-    main()
